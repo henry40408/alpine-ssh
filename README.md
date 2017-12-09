@@ -19,8 +19,8 @@ It's recommend to add some options when directly connecting to SSH server:
 $ ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null root@localhost
 ```
 
-So host key would not be checked and host would not be memorized, which change
-every time the container is created.
+Thus host key and hostname would not be saved, since the key is changed every
+time the container is created.
 
 ## License
 
