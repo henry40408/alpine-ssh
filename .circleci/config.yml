@@ -1,0 +1,17 @@
+version: '2'
+
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.5.0
+    steps:
+      - checkout
+      - setup_remote_docker
+      - restore_cache:
+          keys:
+            - bundle-{{ checksum "Gemfile.lock" }}
+      - run: bundle install --path vendor/bundle
+      - save_cache:
+          key: bundle-{{ checksum "Gemfile.lock" }}
+          paths: [vendor/bundle]
+      - run: bundle exec rspec

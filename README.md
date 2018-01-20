@@ -1,4 +1,4 @@
-# alpine-ssh [![Docker Repository on Quay](https://quay.io/repository/henry40408/alpine-ssh/status "Docker Repository on Quay")](https://quay.io/repository/henry40408/alpine-ssh) ![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
+# alpine-ssh [![CircleCI](https://circleci.com/gh/henry40408/alpine-ssh.svg?style=shield)](https://circleci.com/gh/henry40408/alpine-ssh) [![Docker Repository on Quay](https://quay.io/repository/henry40408/alpine-ssh/status "Docker Repository on Quay")](https://quay.io/repository/henry40408/alpine-ssh) ![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
 
 > Very basic SSH server based on Alpine Linux for testing purpose only
 
