@@ -1,6 +1,10 @@
-# alpine-ssh [![CircleCI](https://circleci.com/gh/henry40408/alpine-ssh.svg?style=shield)](https://circleci.com/gh/henry40408/alpine-ssh) [![Docker Repository on Quay](https://quay.io/repository/henry40408/alpine-ssh/status "Docker Repository on Quay")](https://quay.io/repository/henry40408/alpine-ssh) ![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
+# alpine-ssh [![CircleCI](https://circleci.com/gh/henry40408/alpine-ssh.svg?style=shield)](https://circleci.com/gh/henry40408/alpine-ssh) [![Docker Repository on Quay](https://quay.io/repository/henry40408/alpine-ssh/status "Docker Repository on Quay")](https://quay.io/repository/henry40408/alpine-ssh) ![stability-deprecated](https://img.shields.io/badge/stability-deprecated-red.svg)
 
 > Very basic SSH server based on Alpine Linux for testing purpose only
+
+## Deprecation Warning
+
+This repository was originally created for used on [Concourse CI](https://concourse-ci.org/). Since I don't use Concourse CI anymore, this repository would not be updated anymore. Use at your own risk.
 
 ## Caveats
 
